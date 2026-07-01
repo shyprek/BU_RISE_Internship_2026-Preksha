@@ -44,6 +44,8 @@ Deleting the `.cache` directory in the home directory helped bring back space su
 
 # Day 3: 07/01
 
+Finished reading LLaVA paper, started reading about Gemma 2/Gemma 3
+
 **Gemma3-27B-IT Challenges & Settings**
 
  Current HF access token: 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
