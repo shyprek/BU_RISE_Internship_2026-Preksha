@@ -34,7 +34,7 @@ Set up SCC (made directory `spreksha`); ran the Qwen3-4B, attempted to run Gemma
   
   **Gemma3-27B-IT Challenges & Settings**
 
-  Copied code from HuggingFace [https://huggingface.co/google/gemma-3-27b-it] into a test.py file in the `Gemma3-27B` directory; changed image  
+  Copied code from HuggingFace [https://huggingface.co/google/gemma-3-27b-it] into a test.py file in the `Gemma3-27B-IT` directory; changed image  
 
   Had to create HuggingFace token after requesting access to gated model; logged in using `hf auth login`
 
@@ -49,6 +49,8 @@ Deleting the `.cache` directory in the home directory helped bring back space su
  Current HF access token: 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
 
  Had to logout to reset `.vscode-server` to regain access via VSCode
+
+ Changed max token arg in `Gemma3-27B-IT/test.py` from 40 to 248 to generate more complete response (on first run, the model terminated mid-sentence)
 
  Procedure to run:
 
