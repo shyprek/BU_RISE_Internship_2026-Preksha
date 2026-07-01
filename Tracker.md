@@ -50,7 +50,9 @@ Deleting the `.cache` directory in the home directory helped bring back space su
 
  Had to logout to reset `.vscode-server` to regain access via VSCode
 
- Changed max token arg in `Gemma3-27B-IT/test.py` from 40 to 248 to generate more complete response (on first run, the model terminated mid-sentence)
+ Changed max token arg in Gemma3-27B-IT/test.py from 40 to 248 to generate more complete response (on first run, the model terminated mid-sentence)
+
+ added `model = model.to("cuda")` explicitly to Gemma3-27B-IT/test.py to run on GPU
 
  Procedure to run:
 
@@ -60,7 +62,7 @@ Deleting the `.cache` directory in the home directory helped bring back space su
 
  3) `pip install -r requirements.txt`
 
- 4) `qrsh -pe omp 4 -P ivc-ml -l gpus=2`
+ 4) `qrsh -pe omp 4 -P ivc-ml -l gpus=2 -l gpu_c=8.0` <- ending to request larger gpu
 
  5) Go to project dir
 
