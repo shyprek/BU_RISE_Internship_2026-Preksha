@@ -1,8 +1,6 @@
 # BU RISE 2026
 
-**Overview**
-
-Project Details:
+**Overview/Project Details:**
 
 **Core Research Question** 
 
