@@ -40,6 +40,33 @@ Set up SCC (made directory `spreksha`); ran the Qwen3-4B, attempted to run Gemma
 
   Despite running the model in the correct directory and env, the home directory exceeded quota; deleting the env did not bring the storage back down
 
-Deleting the `.cache` directory helped bring back space successfully
+Deleting the `.cache` directory in the home directory helped bring back space successfully
 
 # Day 3: 07/01
+
+**Gemma3-27B-IT Challenges & Settings**
+
+ Current HF access token: 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
+
+ Had to logout to reset `.vscode-server` to regain access via VSCode
+
+ Procedure to run:
+
+ 1) Go to project dir
+
+ 2) Activate conda env
+
+ 3) `pip install -r requirements.txt`
+
+ 4) `qrsh -pe omp 4 -P ivc-ml -l gpus=2`
+
+ 5) Go to project dir
+
+ 6) `module load miniconda` -> `conda activate test`
+
+ 7) source setup_env.sh (use `$echo HF_HOME` to check if this is needed)
+
+ 8) `hf auth login` (paste token)
+
+ 9) `python Gemma3-27B-IT/test.py`
+
