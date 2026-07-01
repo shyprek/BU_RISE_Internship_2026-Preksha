@@ -1,8 +1,8 @@
-**Day 1: 06/29**
+# Day 1: 06/29
 
 Read paper about distillation (Distilling the Knowledge in a Neural Network): [https://arxiv.org/pdf/1503.02531]
 
-**Day 2: 06/30**
+# Day 2: 06/30
 
 Finished up answering questions about paper (Distilling the Knowledge in a Neural Network): [https://arxiv.org/pdf/1503.02531]
 
