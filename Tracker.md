@@ -54,6 +54,8 @@ Deleting the `.cache` directory in the home directory helped bring back space su
 
  added `model = model.to("cuda")` explicitly to Gemma3-27B-IT/test.py to run on GPU
 
+ model did not generate full response when `max_new_tokens` was set to 40, 248, or 300; attempt with `max_new_tokens = 1024` gave a complete response
+
  Procedure to run:
 
  1) Go to project dir
