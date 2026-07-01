@@ -76,3 +76,6 @@ Deleting the `.cache` directory in the home directory helped bring back space su
 
  9) `python Gemma3-27B-IT/test.py`
 
+<img width="1126" height="476" alt="image" src="https://github.com/user-attachments/assets/f2373e5e-155d-4789-b458-9856513ac758" />
+^Comparison of tokens needed for a full response
+
