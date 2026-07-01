@@ -41,3 +41,5 @@ Set up SCC (made directory `spreksha`); ran the Qwen3-4B, attempted to run Gemma
   Despite running the model in the correct directory and env, the home directory exceeded quota; deleting the env did not bring the storage back down
 
 Deleting the `.cache` directory helped bring back space successfully
+
+# Day 3: 07/01
