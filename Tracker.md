@@ -38,5 +38,6 @@ Set up SCC (made directory `spreksha`); ran the Qwen3-4B, attempted to run Gemma
 
   Had to create HuggingFace token after requesting access to gated model; logged in using `hf auth login`
 
-  Despite running the model in the correct directory and env, the home directory exceeded quota; deleting the env was unsuccessful
-  
+  Despite running the model in the correct directory and env, the home directory exceeded quota; deleting the env did not bring the storage back down
+
+Deleting the `.cache` directory helped bring back space successfully
