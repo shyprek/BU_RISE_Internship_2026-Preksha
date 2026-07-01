@@ -1,29 +1,56 @@
-**Notes Format:**
-The Hypothesis: "Changing the activation function from ReLU to GELU will reduce vanishing gradients in the deeper layers."
+**Overview**
 
-Data Split: Explicitly note your training/validation/testing split ratios and random seeds (e.g., random_state=42).
+Project Details:
 
-Hyperparameters: Learning rate, batch size, epochs, optimizer (e.g., AdamW), dropout rate.
+**Core Research Question** 
 
-Architecture: Number of layers, attention heads, or specific pre-trained weights used (e.g., resnet50).
+When a smaller "student" model is distilled from a larger "teacher" model, what specific reasoning capabilities or information degrade, disappear, or get reshaped — and can we characterize where and why this happens, rather than just measuring an aggregate benchmark drop?
 
-Metrics: Validation loss, accuracy, F1-score, precision/recall curves, and training time.
 
-### 📊 Run Log: [e.g., Run_v1.2_GELU_Adjustment]
-* **Code Commit / Branch:** `origin/ml-baseline`
-* **W&B or TensorBoard Link:** [Insert Link]
+**Guiding Hypothesis**
 
-| Hyperparameter | Value |
-| :--- | :--- |
-| Optimizer | AdamW |
-| Learning Rate | 1e-4 |
-| Batch Size | 32 |
-| Epochs | 50 |
+Distillation loss isn't uniform. It likely impacts long-tail knowledge and certain tasks more instead of degrading everything proportionally. The project aims to produce a capability-loss profile, not just a single number.
 
-#### Results & Convergence
-* **Best Val Loss:** 0.234 (at Epoch 34)
-* **Test Accuracy / F1:** 91.2% / 0.89
-* *[Insert/Paste Loss Curve Graph Here]*
 
-#### Key Takeaway / Interpretation
-* The model converged faster with GELU, but started overfitting around epoch 35. Tomorrow, I need to implement early stopping or increase the dropout rate to 0.3.
+**Day 1: 06/29**
+
+Read paper about distillation (Distilling the Knowledge in a Neural Network): [https://arxiv.org/pdf/1503.02531]
+
+**Day 2: 06/30**
+
+Finished up answering questions about paper (Distilling the Knowledge in a Neural Network): [https://arxiv.org/pdf/1503.02531]
+
+Started reading paper about LLaVA (Visual Instruction Tuning): [https://arxiv.org/pdf/2304.08485]
+
+Watched videos to gain background on LLM arch [https://www.youtube.com/watch?v=LPZh9BOjkQs] and VLM arch [https://www.youtube.com/watch?v=lOD_EE96jhM]
+
+Set up SCC (made directory `spreksha`); ran the Qwen3-4B, attempted to run Gemma3-27B-IT
+
+  **General Setup**
+
+  Activated conda env (test) with the following commands:
+
+  `module load miniconda`
+  
+  `conda create -n test python=3.11`
+  
+  `conda activate test`
+
+  **Qwen3-4B Challenges & Settings**
+
+  Had to add torchvision and pillow to the requirements.txt to run
+
+  Copied code from HuggingFace [https://huggingface.co/Qwen/Qwen3-VL-4B-Instruct] into a test.py file in the `DemoQwen3-4B` directory; changed image
+  
+  Initially, conda environment was set up in home directory (`/usr4/spclpgm/spreksha`) instead of project directory (`/projectnb/ivc-ml/spreksha'); fixed by deleting and moving to correct directory: `rm -rf /usr4/spclgm/spreksha/.conda`
+
+  Successfully printed out a description of a Yosemite waterfall image
+  
+  **Gemma3-27B-IT Challenges & Settings**
+
+  Copied code from HuggingFace [https://huggingface.co/google/gemma-3-27b-it] into a test.py file in the `Gemma3-27B` directory; changed image  
+
+  Had to create HuggingFace token after requesting access to gated model; logged in using `hf auth login`
+
+  Despite running the model in the correct directory and env, the home directory exceeded quota; deleting the env was unsuccessful
+  
