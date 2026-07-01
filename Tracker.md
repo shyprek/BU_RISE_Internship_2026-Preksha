@@ -70,7 +70,7 @@ Deleting the `.cache` directory in the home directory helped bring back space su
 
  6) `module load miniconda` -> `conda activate test`
 
- 7) source setup_env.sh (use `$echo HF_HOME` to check if this is needed)
+ 7) source setup_env.sh (use `$echo HF_HOME` to check if this is needed) <- modifications made to .bashrc in home directory, not needed (added `export HF_HOME="/projectnb/ivc-ml/spreksha/.hf_cache"`)
 
  8) `hf auth login` (paste token)
 
