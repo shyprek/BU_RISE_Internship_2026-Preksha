@@ -1,4 +1,4 @@
-# BU-RISE-2026
+# BU RISE 2026
 
 **Overview**
 
