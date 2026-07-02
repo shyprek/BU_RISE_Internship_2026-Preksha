@@ -44,7 +44,7 @@ Deleting the `.cache` directory in the home directory helped bring back space su
 
 # Day 3: 07/01
 
-Finished reading LLaVA paper, started reading about Gemma 2/Gemma 3
+Finished reading LLaVA paper, finished reading about Gemma 2/Gemma 3
 
 **Gemma3-27B-IT Challenges & Settings**
 
@@ -80,4 +80,12 @@ Finished reading LLaVA paper, started reading about Gemma 2/Gemma 3
 
 <img width="1126" height="476" alt="image" src="https://github.com/user-attachments/assets/f2373e5e-155d-4789-b458-9856513ac758" />
 ^Comparison of tokens needed for a full response
+
+**Data Set Loading (Starting)**
+
+Loaded MM-SafetyBench data set onto server; created a sampling script (see sample_img.py) 
+
+Intially had issues viewing some images and deleting the data set (now resolved); **current** issue is that the sampling script doesn't recognize images in the directory
+
+# Day 4: 07/02
 
