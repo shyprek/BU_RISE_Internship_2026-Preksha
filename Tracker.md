@@ -91,3 +91,7 @@ Intially had issues viewing some images and deleting the data set (now resolved)
 
 Finished reading technical reports for Gemma 2 & Gemma 3
 
+Tested inference of Gemma3-27B-IT & Gemma3-12B-IT over 10 and then 50 images
+
+In addition to average inference time per image, collected min, max, and std deviation
+
