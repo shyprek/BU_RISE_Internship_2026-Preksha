@@ -89,3 +89,5 @@ Intially had issues viewing some images and deleting the data set (now resolved)
 
 # Day 4: 07/02
 
+Finished reading technical reports for Gemma 2 & Gemma 3
+
