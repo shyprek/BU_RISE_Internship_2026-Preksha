@@ -95,3 +95,18 @@ Tested inference of Gemma3-27B-IT & Gemma3-12B-IT over 10 and then 50 images
 
 In addition to average inference time per image, collected min, max, and std deviation
 
+**Preliminary Runs for each model (50 imgs)**
+
+Gemma3-27B-IT:
+
+<img width="392" height="154" alt="image" src="https://github.com/user-attachments/assets/cedc3db1-1b66-4ccf-81a7-dab3ef3d65e5" />
+
+Gemma3-12B-IT:
+
+<img width="388" height="156" alt="image" src="https://github.com/user-attachments/assets/08e9664c-5957-4a71-be9e-28945969b5e4" />
+
+Gemma3-4B-IT:
+
+<img width="378" height="160" alt="image" src="https://github.com/user-attachments/assets/efbbde76-1e30-425b-93c0-0ff1feeee2c4" />
+
+
