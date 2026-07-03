@@ -97,6 +97,10 @@ In addition to average inference time per image, collected min, max, and std dev
 
 **Preliminary Runs for each model (50 imgs)**
 
+What was collected: average inference time per image, min, max, std deviation
+
+|___ later added avg inference time per image for each category
+
 Gemma3-27B-IT:
 
 <img width="392" height="154" alt="image" src="https://github.com/user-attachments/assets/cedc3db1-1b66-4ccf-81a7-dab3ef3d65e5" />
@@ -109,5 +113,14 @@ Gemma3-4B-IT:
 
 <img width="378" height="160" alt="image" src="https://github.com/user-attachments/assets/efbbde76-1e30-425b-93c0-0ff1feeee2c4" />
 
+**Challenges/Errors:**
+
 Ran jobs for all three models (500), but models were likely not in inference mode, so will have to run again (will also have to figure out how to kill the current job for Gemma3-27B-IT)
 
+Downloaded gdown to be able to re-extract MM-SafetyBench dataset (2 categories somehow got deleted at first)
+
+Initial issues with file path to images
+
+Initial difficulty getting inference time per image as I was initially using a HF pipeline
+
+Had to add csv file & log to keep records for each model run
