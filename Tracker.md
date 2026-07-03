@@ -126,7 +126,7 @@ Downloaded gdown to be able to re-extract MM-SafetyBench dataset (2 categories s
 
 Initial issues with file path to images
 
-Initial difficulty getting inference time per image as I was initially using a HF pipeline
+Initial difficulty getting inference time per image as I was initially using a HF pipeline --> later bypassed pipeline so tasks wouldn't run in the background and inference time per image wouldn't be recorded as "0.00"
 
 Had to add csv file & log to keep records for each model run
 
