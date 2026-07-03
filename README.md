@@ -2,6 +2,8 @@
 
 **Overview/Project Details:**
 
+Understanding Reasoning Capability Loss in Knowledge Distillation
+
 **Core Research Question** 
 
 When a smaller "student" model is distilled from a larger "teacher" model, what specific reasoning capabilities or information degrade, disappear, or get reshaped — and can we characterize where and why this happens, rather than just measuring an aggregate benchmark drop?
