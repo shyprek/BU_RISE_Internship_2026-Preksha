@@ -115,7 +115,12 @@ Gemma3-4B-IT:
 
 **Challenges/Errors:**
 
-Ran jobs for all three models (500), but models were likely not in inference mode, so will have to run again (will also have to figure out how to kill the current job for Gemma3-27B-IT)
+Ran jobs for all three models (500), but models were likely not in inference mode, so will have to run again (will also have to figure out how to kill the current job for Gemma3-27B-IT) 
+
+- update: all were in inference mode, just the job for Gemma3-27B-IT was being offloaded to CPU; canceled job, will try again with 3 gpus instead of one
+- to kill the current job:
+  1) first find job id (`qstat -u spreksha`)
+  2) `qdel job_id`
 
 Downloaded gdown to be able to re-extract MM-SafetyBench dataset (2 categories somehow got deleted at first)
 
