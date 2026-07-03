@@ -131,3 +131,4 @@ Initial difficulty getting inference time per image as I was initially using a H
 Had to add csv file & log to keep records for each model run
 
 Last run (jobs for 4B & 12B) showed that the larger model was faster than the smaller model
+- will rerun to force all models to print out response 30 tokens in length to compare inference times
