@@ -1,8 +1,6 @@
-# BU RISE 2026
+# BU RISE 2026: Understanding Reasoning Capability Loss in Knowledge Distillation
 
 **Overview/Project Details:**
-
-Understanding Reasoning Capability Loss in Knowledge Distillation
 
 **Core Research Question** 
 
