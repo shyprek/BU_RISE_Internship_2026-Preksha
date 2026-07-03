@@ -109,4 +109,5 @@ Gemma3-4B-IT:
 
 <img width="378" height="160" alt="image" src="https://github.com/user-attachments/assets/efbbde76-1e30-425b-93c0-0ff1feeee2c4" />
 
+Ran jobs for all three models (500), but models were likely not in inference mode, so will have to run again (will also have to figure out how to kill the current job for Gemma3-27B-IT)
 
