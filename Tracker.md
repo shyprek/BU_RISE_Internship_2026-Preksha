@@ -135,7 +135,7 @@ Last run (jobs for 4B & 12B) showed that the larger model was faster than the sm
 
 # Day 4: 07/06
 
-Found error in calculating average token, so reran (while also calculating avg time per token) --> new data reconciled w/ model sizes & inference times
+Found error in calculating average tokens generated, so reran (while also calculating avg time per token) --> new data reconciled w/ model sizes & inference times
 
 Notable artifacts:
 - in detailed logs for 4B, some responses have a follow up question asking if it should describe the image further despite the prompt explicitly stating it to use only 1 sentence
