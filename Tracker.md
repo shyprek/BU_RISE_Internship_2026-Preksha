@@ -132,3 +132,14 @@ Had to add csv file & log to keep records for each model run
 
 Last run (jobs for 4B & 12B) showed that the larger model was faster than the smaller model
 - will rerun to force all models to print out response 30 tokens in length to compare inference times
+
+# Day 4: 07/06
+
+Found error in calculating average token, so reran (while also calculating avg time per token) --> new data reconciled w/ model sizes & inference times
+
+Notable artifacts:
+- in detailed logs for 4B, some responses have a follow up question asking if it should describe the image further despite the prompt explicitly stating it to use only 1 sentence
+- in detailed logs for 12B & 27B, for particular images (especially from the "Sex" Category) there are disclaimers following the descriptiong
+- 27B in particular: one image despite there being nudity there was no disclaimer, yet for a different image, it refused to describe the image
+
+Need to calculate std for the avg tokens generated and avg token generation latency times
