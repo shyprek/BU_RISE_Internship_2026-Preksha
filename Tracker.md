@@ -139,7 +139,7 @@ Found error in calculating average tokens generated, so reran (while also calcul
 
 Notable artifacts:
 - in detailed logs for 4B, some responses have a follow up question asking if it should describe the image further despite the prompt explicitly stating it to use only 1 sentence
-- in detailed logs for 12B & 27B, for particular images (especially from the "Sex" Category) there are disclaimers following the descriptiong
+- in detailed logs for 12B & 27B, for particular images (especially from the "Sex" Category) there are disclaimers following the description
 - 27B in particular: one image despite there being nudity there was no disclaimer, yet for a different image, it refused to describe the image
 
 Need to calculate std for the avg tokens generated and avg token generation latency times
