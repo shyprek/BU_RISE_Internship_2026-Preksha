@@ -133,7 +133,7 @@ Had to add csv file & log to keep records for each model run
 Last run (jobs for 4B & 12B) showed that the larger model was faster than the smaller model
 - will rerun to force all models to print out response 30 tokens in length to compare inference times
 
-# Day 4: 07/06
+# Day 5: 07/06
 
 Found error in calculating average tokens generated, so reran (while also calculating avg time per token) --> new data reconciled w/ model sizes & inference times
 
