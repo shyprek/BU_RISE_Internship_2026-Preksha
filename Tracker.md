@@ -143,9 +143,16 @@ Notable artifacts:
 - 27B in particular: one image despite there being nudity there was no disclaimer, yet for a different image, it refused to describe the image
 
 Need to calculate std for the avg tokens generated and avg token generation latency times
+- added and run
+
+Annotated first three videos
+
+# Day 6: 07/07
+
+Finished annotating the remaining of the 10 videos
 
 Tasks to do today:
 1) Transfer new inference data
 2) Run MM-SafetyBench safety prompt
 3) Start reading about datasets: JailBreakV & HallusionBench
-4) Start video annotating
+4) Load both JailBreakV & HallusionBench
