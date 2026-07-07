@@ -151,8 +151,10 @@ Annotated first three videos
 
 Finished annotating the remaining of the 10 videos
 
-Tasks to do today:
-1) Transfer new inference data
-2) Run MM-SafetyBench safety prompt
-3) Start reading about datasets: JailBreakV & HallusionBench
-4) Load both JailBreakV & HallusionBench
+Transferred new inference data (updated slides/plots)
+
+Worked on attack script (still need to finish with ASR scores)
+
+Loaded datasets: JailbreakV (initially only prompts, later with images after Dahye filled out the permission form)
+
+Finished reading about datasets and updated table; discussed some of the task prioritization with Siwoo
