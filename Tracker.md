@@ -168,3 +168,27 @@ Run the MM-SafetyBench prompt on all three models
 Run inference on the JailbreakV and HallusionBench datasets
 
 Think about what tasks to prioritize
+
+---------------------------------------------
+
+Had to reload the prompts for MM-SafetyBench; procedure for reference:
+
+1. Clone the repo structure shallowly without downloading any files yet
+
+`git clone --depth 1 --filter=blob:none --sparse https://github.com/OWNER/REPO_NAME.git`
+
+`cd REPO_NAME`
+
+2. Tell git exactly which subfolder you want to target
+   
+`git sparse-checkout set path/to/your/target_folder`
+
+3. Pull down the actual files for just that specific directory
+   
+`git checkout`
+
+Finished writing script for MM-SafetyBench safety prompt; changed the attack success evaluation to a model judge like in the paper
+- had to switch from GPT4 to GPT4o as API key did not have access; limit was also reached so runs currently on pause
+
+Started script for running inference on JailbreakV (28K)
+- Finished script for all three models
