@@ -198,3 +198,7 @@ Models attempted as judge:
 - GPT 4 (couldn't access with API Key)
 - GPT 4o (ran out after like 5-7 responses)
 - GPT 5.2 (ran out halfway through the run at 28)
+
+**Major change in scripts**: pivoted from storing CSVs at the end to keeping JSON files updated during runtime
+
+Need to add prompts to output JSON and to also add the refusal rate once ASR is successfully obtained
