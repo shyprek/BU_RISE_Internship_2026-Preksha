@@ -193,3 +193,8 @@ Finished writing script for MM-SafetyBench safety prompt; changed the attack suc
 Started script for running inference on JailbreakV (28K)
 - Finished script for all three models
 - Modified to only take images from `query_related`
+
+Models attempted as judge:
+- GPT 4 (couldn't access with API Key)
+- GPT 4o (ran out after like 5-7 responses)
+- GPT 5.2 (ran out halfway through the run at 28)
