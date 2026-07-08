@@ -158,3 +158,13 @@ Worked on attack script (still need to finish with ASR scores)
 Loaded datasets: JailbreakV (initially only prompts, later with images after Dahye filled out the permission form)
 
 Finished reading about datasets and updated table; discussed some of the task prioritization with Siwoo
+
+# Day 7: 07/08
+
+To Do: 
+-
+Run the MM-SafetyBench prompt on all three models
+
+Run inference on the JailbreakV and HallusionBench datasets
+
+Think about what tasks to prioritize
