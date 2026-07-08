@@ -165,7 +165,7 @@ To Do:
 -
 Run the MM-SafetyBench prompt on all three models
 
-Run inference on the JailbreakV and HallusionBench datasets
+Run inference on the JailbreakV and HallusionBench datasets (test 500 img each)
 
 Think about what tasks to prioritize
 
@@ -192,3 +192,4 @@ Finished writing script for MM-SafetyBench safety prompt; changed the attack suc
 
 Started script for running inference on JailbreakV (28K)
 - Finished script for all three models
+- Modified to only take images from `query_related`
