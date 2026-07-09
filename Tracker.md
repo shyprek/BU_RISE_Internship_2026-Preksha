@@ -222,3 +222,5 @@ Run inferences for JailBreakV & HallusionBench
 Annotate 10-20 videos
 
 ---------------------------------------------
+
+Reattempted run with 20-second delay, both GPT 4o & GPT 5.2 (GPT 5.2 held up for more samples), but API limit was still hit (50 requests per day?); will table tracking ASR for later
