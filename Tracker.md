@@ -189,7 +189,8 @@ Had to reload the prompts for MM-SafetyBench; procedure for reference:
 
 Finished writing script for MM-SafetyBench safety prompt; changed the attack success evaluation to a model judge like in the paper
 - had to switch from GPT4 to GPT4o as API key did not have access; limit was also reached so runs currently on pause
-- **fixed by adding a delay between inferences (`time.sleep(25)`)**
+- **trying fix by adding a delay between inferences (`time.sleep(25)`)**
+    - for GPT 4o it was still unsuccessful, could try increasing # of GPUs
 
 Started script for running inference on JailbreakV (28K)
 - Finished script for all three models
@@ -209,3 +210,15 @@ EXAMPLE OF ERROR:
 Need to add prompts to output JSON and to also add the refusal rate once ASR is successfully obtained
 
 Note for HallusionBench: Focus on VD (Visual Dependent) image set
+
+# Day 8: 07/09
+
+To Do
+-
+Troubleshoot MM-SafetyBench safety prompt script
+
+Run inferences for JailBreakV & HallusionBench
+
+Annotate 10-20 videos
+
+---------------------------------------------
