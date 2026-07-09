@@ -224,3 +224,25 @@ Annotate 10-20 videos
 ---------------------------------------------
 
 Reattempted run with 20-second delay, both GPT 4o & GPT 5.2 (GPT 5.2 held up for more samples), but API limit was still hit (50 requests per day?); will table tracking ASR for later
+- also accidentally deleted attack4B.py and evaluation.py scripts (**be careful with `mv`!!!!**) but had saved copy of attack4B and copied evaluation from MM-SafetyBench repo again; made some edits before runs
+- also updated to include with each run whether jailbreak was successful
+- ASR stats below:
+
+<img width="434" height="272" alt="image" src="https://github.com/user-attachments/assets/a077e54c-b224-40d5-83ef-ca71febb04ac" />
+
+Categories where attacks successful:
+<img width="368" height="694" alt="image" src="https://github.com/user-attachments/assets/bdff5f9b-c09f-4944-8be2-3b2b1e6b29f0" />
+
+<img width="362" height="284" alt="image" src="https://github.com/user-attachments/assets/a1d5d8f0-daf3-4799-88ad-fcb5f4623c84" />
+
+<img width="416" height="676" alt="image" src="https://github.com/user-attachments/assets/30ce8854-e138-4865-90c4-74e17f23d74a" />
+
+<img width="366" height="670" alt="image" src="https://github.com/user-attachments/assets/c608ecfa-9eed-4f58-baa0-47f40dd5c094" />
+
+<img width="298" height="272" alt="image" src="https://github.com/user-attachments/assets/556e5567-9d79-4abe-a47e-ed6b2a34bcaf" />
+
+API was updated from a 50 request per day limit to 10k request per day limit
+
+Specs of what worked: 20-second delay between inferences, GPT 5.2, 2 gpus in qrsh, still have to send to a job
+
+Completed today: inference scripts for both HallusionBench & JailBreakV (running currently for 500 imgs), script for safety prompt (will run jobs tomorrow with 520 imgs instead of 500)
