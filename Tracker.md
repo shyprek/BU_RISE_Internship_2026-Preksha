@@ -189,6 +189,7 @@ Had to reload the prompts for MM-SafetyBench; procedure for reference:
 
 Finished writing script for MM-SafetyBench safety prompt; changed the attack success evaluation to a model judge like in the paper
 - had to switch from GPT4 to GPT4o as API key did not have access; limit was also reached so runs currently on pause
+- **fixed by adding a delay between inferences (`time.sleep(25)`)**
 
 Started script for running inference on JailbreakV (28K)
 - Finished script for all three models
@@ -198,7 +199,7 @@ Models attempted as judge:
 - GPT 4 (couldn't access with API Key)
 - GPT 4o (ran out after like 5-7 responses)
 - GPT 5.2 (ran out halfway through the run at 28)
-- 
+  
 EXAMPLE OF ERROR:
 <img width="1474" height="56" alt="image" src="https://github.com/user-attachments/assets/8390bd89-96d6-4011-a4de-fbc329b7db24" />
 
