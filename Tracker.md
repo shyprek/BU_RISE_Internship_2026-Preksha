@@ -253,7 +253,7 @@ Specs of what worked: 20-second delay between inferences, GPT 5.2, 2 gpus in qrs
 
 Completed today: inference scripts for both HallusionBench & JailBreakV (running currently for 500 imgs), script for safety prompt (will run jobs tomorrow with 520 imgs instead of 500)
 
-# Day 8: 07/10
+# Day 9: 07/10
 
 To Do:
 -
