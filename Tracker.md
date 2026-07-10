@@ -272,3 +272,9 @@ My thoughts on my datasets
 **HallusionBench**: Much smaller than MM-SafetyBench, but presents a useful reasoning task; can be used to see whether student models inherit the same hallucination/illusion tendencies as the teacher model; categories are more general; easy to run inference as there is a JSON file
 
 **JailBreakV**: HUGE dataset, but very specialized task; still could be useful in determining inherited weaknesses; easy to run inference as there is a CSV file
+
+------------------------------------
+
+Forgot to log average inference times per category for HallusionBench & JailBreakV (done after the run for this run)
+
+Had to rerun Hallusion inference for 12B (messed up numbering and analyzed 583 instead of 500 imgs)
