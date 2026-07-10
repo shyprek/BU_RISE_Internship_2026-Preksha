@@ -252,3 +252,23 @@ API was updated from a 50 request per day limit to 10k request per day limit
 Specs of what worked: 20-second delay between inferences, GPT 5.2, 2 gpus in qrsh, still have to send to a job
 
 Completed today: inference scripts for both HallusionBench & JailBreakV (running currently for 500 imgs), script for safety prompt (will run jobs tomorrow with 520 imgs instead of 500)
+
+# Day 8: 07/10
+
+To Do:
+-
+
+Transfer Run data to Week 2 Slide Updates
+
+Finalize ranking of data sets
+
+Start annotating videos
+
+------------------------------------
+
+My thoughts on my datasets
+-
+
+**HallusionBench**: Much smaller than MM-SafetyBench, but presents a useful reasoning task; can be used to see whether student models inherit the same hallucination/illusion tendencies as the teacher model; categories are more general; easy to run inference as there is a JSON file
+
+**JailBreakV**: HUGE dataset, but very specialized task; still could be useful in determining inherited weaknesses; easy to run inference as there is a CSV file
