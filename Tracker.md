@@ -275,6 +275,10 @@ My thoughts on my datasets
 
 ------------------------------------
 
+# Day 10: 07/13
+
+
+
 Forgot to log average inference times per category for HallusionBench & JailBreakV (done after the run for this run)
 
 Had to rerun Hallusion inference for 12B (messed up numbering and analyzed 583 instead of 500 imgs)
