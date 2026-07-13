@@ -275,10 +275,14 @@ My thoughts on my datasets
 
 ------------------------------------
 
-# Day 10: 07/13
-
-
-
 Forgot to log average inference times per category for HallusionBench & JailBreakV (done after the run for this run)
 
 Had to rerun Hallusion inference for 12B (messed up numbering and analyzed 583 instead of 500 imgs)
+
+# Day 10: 07/13
+
+Updated slides to have 3 examples of prompts, images, and responses for all Week 2 data sets
+
+Added column to ASR table to emphasize comparisons
+
+# Day 11: 07/14
