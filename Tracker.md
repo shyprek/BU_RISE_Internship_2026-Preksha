@@ -303,3 +303,5 @@ Run HallusionBench accuracy
 Write inference scripts with accuracy measurement for MME & MathVision
 
 Annotate MOVA videos
+
+Add new data to charts/tables and slides (e.g. heatmaps)
