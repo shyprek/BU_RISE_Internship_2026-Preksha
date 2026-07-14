@@ -295,6 +295,10 @@ Wrote script to calculate accuracy for HallusionBench
 - first reformatted json and added the ground truths
 - attempted to run, but kept getting time-outs; will table for tomorrow
 
+HallusionBench accuracy run (error for 27B):
+
+<img width="1282" height="154" alt="image" src="https://github.com/user-attachments/assets/affcdd2f-511d-4d65-a72c-057bd95e94a4" />
+
 Remaining To-Dos:
 -
 
