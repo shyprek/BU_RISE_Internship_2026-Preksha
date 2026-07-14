@@ -286,3 +286,20 @@ Updated slides to have 3 examples of prompts, images, and responses for all Week
 Added column to ASR table to emphasize comparisons
 
 # Day 11: 07/14
+
+Made script to calculate ASR for JailBreakV; had to switch to GPT 5.2 bc LlamaGuard models are gated (and asked for a lot of identifying info such as birthday)
+- had to first reformat the csv for columns to match eval script on github
+- overall numbers are lower than those on MM-SafetyBench (safety prompt); larger models had lower ASR
+
+Wrote script to calculate accuracy for HallusionBench
+- first reformatted json and added the ground truths
+- attempted to run, but kept getting time-outs; will table for tomorrow
+
+Remaining To-Dos:
+-
+
+Run HallusionBench accuracy
+
+Write inference scripts with accuracy measurement for MME & MathVision
+
+Annotate MOVA videos
