@@ -309,3 +309,11 @@ Write inference scripts with accuracy measurement for MME & MathVision
 Annotate MOVA videos
 
 Add new data to charts/tables and slides (e.g. heatmaps)
+
+# Day 12: 07/15
+
+Finished script for MME; all runs successful
+
+Still troubleshooting HallusionBench
+
+Still fixing script for MathVision
