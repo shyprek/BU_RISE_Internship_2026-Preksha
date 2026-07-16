@@ -317,3 +317,10 @@ Finished script for MME; all runs successful
 Still troubleshooting HallusionBench
 
 Still fixing script for MathVision
+
+# Day 13: 07/16
+
+Finished script for MathVision; currently running job
+- had to change the prompt to InternLM-XComposer2-VL (non-CoT) and added "Never show reasoning" to get the models to respond in a proper format; before the "Never show reasoning", 12B always maxed out its tokens, so all responses were failed
+
+
