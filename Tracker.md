@@ -322,5 +322,9 @@ Still fixing script for MathVision
 
 Finished script for MathVision; currently running job
 - had to change the prompt to InternLM-XComposer2-VL (non-CoT) and added "Never show reasoning" to get the models to respond in a proper format; before the "Never show reasoning", 12B always maxed out its tokens, so all responses were failed
+- 27B accuracy in my run (20.12%) is significantly lower than what is on the leaderboard (46.0%), but likely bc of non-CoT
 
+HallusionBench:
+- issue with duplicate response for img in math (5_0, question id: 2)
+- still needs to be fixed
 
