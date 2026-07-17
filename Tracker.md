@@ -332,4 +332,23 @@ HallusionBench:
 
 Continuing to troubleshoot HallusionBench; realized that sampling did not keep question pairs (same question, slightly edited images), so had to get rid of any calculations involving figure or question pairs
 - found this issue after going through official evaluation code and understanding what each section did; turns out, pairs were not kept during sampling and so some of the categories did not have a figure id = 0 (and also causing errors with other sections)
+- realized that function order is still evaluate_by_chatgpt() -> check_same_by_chatgpt() -> assign_correctness() after checking the official code again (parameters for functions not shown here); real issues were in check_same_by_chatgpt() in utilsmod.py
+  - were "correct" was used as a key was supposed to be output_entry, and I needed to fix the key in the second loop to also include the figure id like in the first loop
+
+Accuracy by Category (HallusionBench: seems like 2 images were duplicated for each, so total 498 imgs):
+-
+
+Gemma3-4B-IT:
+
+<img width="376" height="176" alt="image" src="https://github.com/user-attachments/assets/aa57d939-1614-4d1a-846c-f7ea58cfc610" />
+
+Gemma3-12B-IT:
+
+<img width="374" height="172" alt="image" src="https://github.com/user-attachments/assets/ffea0458-c3ea-488e-9e04-066e23ea2c44" />
+
+Gemma3-27B-IT:
+
+
+
+
 
