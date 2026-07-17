@@ -328,3 +328,8 @@ HallusionBench:
 - issue with duplicate response for img in math (5_0, question id: 2)
 - still needs to be fixed
 
+# Day 17: 07/17
+
+Continuing to troubleshoot HallusionBench; realized that sampling did not keep question pairs (same question, slightly edited images), so had to get rid of any calculations involving figure or question pairs
+- found this issue after going through official evaluation code and understanding what each section did; turns out, pairs were not kept during sampling and so some of the categories did not have a figure id = 0 (and also causing errors with other sections)
+
