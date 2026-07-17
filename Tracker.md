@@ -334,6 +334,9 @@ Continuing to troubleshoot HallusionBench; realized that sampling did not keep q
 - found this issue after going through official evaluation code and understanding what each section did; turns out, pairs were not kept during sampling and so some of the categories did not have a figure id = 0 (and also causing errors with other sections)
 - realized that function order is still evaluate_by_chatgpt() -> check_same_by_chatgpt() -> assign_correctness() after checking the official code again (parameters for functions not shown here); real issues were in check_same_by_chatgpt() in utilsmod.py
   - were "correct" was used as a key was supposed to be output_entry, and I needed to fix the key in the second loop to also include the figure id like in the first loop
+- images duplicated format: `category`_`subcategory`_`set_id`_`figure_id`_`question_id`
+  - VD_math_5_0_2
+  - VD_video_12_0_2
 
 Accuracy by Category (HallusionBench: seems like 2 images were duplicated for each, so total 498 imgs):
 -
@@ -348,6 +351,7 @@ Gemma3-12B-IT:
 
 Gemma3-27B-IT:
 
+<img width="380" height="178" alt="image" src="https://github.com/user-attachments/assets/2d8d9e04-112a-4cb0-8139-3a756ef971b9" />
 
 
 
