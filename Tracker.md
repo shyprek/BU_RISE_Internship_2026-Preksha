@@ -353,6 +353,25 @@ Gemma3-27B-IT:
 
 <img width="380" height="178" alt="image" src="https://github.com/user-attachments/assets/2d8d9e04-112a-4cb0-8139-3a756ef971b9" />
 
+# Day 18 07/20
+
+- Realized that Gemma3-4B, Gemma3-12B, and Gemma3-27B are all students of an undisclosed "large IT teacher"; overall pipeline undisclosed, so models cannot be compared against each other for distillation purposes
+  
+- Currently switched to InternVL2-8B (Teacher) and TAID-VLM-2B (Student) w/ InternVL2-2B as the student before distillation
+  
+- Created JSON file with model configurations, though it looks like InternVL2 has a custom method of loading it that doesn't necessarily work with the pipeline API (also bc of version mismatch; current env's transformers version is too new)
+  - Currently attempting to run the teacher model on MME, though JSON config was giving trouble so switched to directly inputting model args
+
+# Day 19: 07/21
+
+To Do:
+-
+Once setup is figured out, run all three models on MME, HallusionBench, JailBreakV, MathVision, and MM-SafetyBench
+
+Change hyperparameters (exact values tbd for 2 & 3):
+1) change do_sample to false
+2) change temperature
+3) change max_new_tokens
 
 
 
