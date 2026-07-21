@@ -376,8 +376,24 @@ Change hyperparameters (exact values tbd for 2 & 3):
 -----------------------------------
 
 To create new env to run the InterVL2, had to load a gcc higher than 9.0 (used 11.2.0) and loaded `FLASH_ATTN_CUDA_ARCHS="86"`
-- flash attn build is currently taking a very long time (roughly 10-15 min now)
+- flash attn build is currently taking a very long time (roughly 10-15 min now) --> SUCCESSFUL
 
 To clone a conda env: `conda create --name new_env --clone old_env`
+
+**No HF transformers pipeline is being used now**
+
+-----------------------------------
+
+New To Do:
+-
+
+Submit jobs for MME
+
+Edit scripts for JailBreakV, HallusionBench (CHANGE SAMPLING TO INCLUDE QUESTION PAIRS), MathVision, MM-SafetyBench
+- run jobs for these later if time
+
+Figure out stuff with config json
+
+Finally: run with different hyperparameters (original runs on defaults, including max_new_tokens = 1024)
 
 
