@@ -387,7 +387,7 @@ To clone a conda env: `conda create --name new_env --clone old_env`
 New To Do:
 -
 
-Submit jobs for MME
+Submit jobs for MME (complete)
 
 Edit scripts for JailBreakV, HallusionBench (CHANGE SAMPLING TO INCLUDE QUESTION PAIRS), MathVision, MM-SafetyBench
 - run jobs for these later if time
