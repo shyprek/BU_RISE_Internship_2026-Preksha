@@ -373,5 +373,8 @@ Change hyperparameters (exact values tbd for 2 & 3):
 2) change temperature
 3) change max_new_tokens
 
+-----------------------------------
+
+To create new env to run the InterVL2, had to load a gcc higher than 9.0 (used 11.2.0) and loaded `FLASH_ATTN_CUDA_ARCHS="86"`
 
 
