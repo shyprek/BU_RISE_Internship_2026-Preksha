@@ -396,4 +396,25 @@ Figure out stuff with config json
 
 Finally: run with different hyperparameters (original runs on defaults, including max_new_tokens = 1024)
 
+# Day 20: 07/22
+
+For Jailbreak inference run, had to put in the API key into the bash script because it wasn't recognizing the env variable for some reason (env = intern, api key var = OPENAI_API_KEY)
+
+Had to fix evaluation for HallusionBench & Jailbreak (still running/need to be troubleshooted)
+
+Started working on MathVision, need to fix eval
+
+Main changes include editing pipeline & model ids, though updated **HallusionBench sampling function to keep pairs intact (and include one with figure_id = 0)** and had to add the **set_id, figure_id, and question_id** to the logs to differentiate different questions using the same image
+
+Remaining To Dos:
+-
+
+Fix Jailbreak
+
+Run MathVision & MM-SafetyBench
+
+Create heatmaps, identify 2 worst performing datasets
+
+Change hyperparams and run
+
 
