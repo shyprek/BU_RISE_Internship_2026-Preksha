@@ -417,4 +417,22 @@ Create heatmaps, identify 2 worst performing datasets
 
 Change hyperparams and run
 
+---------------------------------
+
+Some HallusionBench Eval Stats:
+
+InternVL2-2B (Student before KD):
+
+<img width="1340" height="538" alt="image" src="https://github.com/user-attachments/assets/7621d613-543b-4453-aaa3-ec483d984439" />
+
+InternVL2-8B (Teacher):
+
+<img width="1342" height="468" alt="image" src="https://github.com/user-attachments/assets/980f3ba6-6faa-464d-ab4f-1a6ce4bb2f8f" />
+
+TAID-MVL-2B (Student after KD):
+
+<img width="1346" height="470" alt="image" src="https://github.com/user-attachments/assets/8568777b-c16f-46e5-a7f1-1422388659d3" />
+
+
+
 
