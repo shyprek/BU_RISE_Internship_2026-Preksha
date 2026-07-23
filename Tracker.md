@@ -433,6 +433,22 @@ TAID-MVL-2B (Student after KD):
 
 <img width="1346" height="470" alt="image" src="https://github.com/user-attachments/assets/8568777b-c16f-46e5-a7f1-1422388659d3" />
 
+# Day 21: 07/23
+
+Running MM-SafetyBench with safety prompt
+
+**Notes for future runs:**
+- print out generation_config
+- KEEP A SEED ACROSS ALL MODELS
+- temperature can be adjusted as follows: 0.1, 0.7, 1.0, and 10 if time
+- update HallusionBench eval code to include percentages 
+----------------------------------------
+
+To Do:
+
+- move data to slides, determine 2 worst and 2 best tasks
+- start runs with temperature changes
+
 
 
 
