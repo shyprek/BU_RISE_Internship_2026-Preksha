@@ -441,13 +441,37 @@ Running MM-SafetyBench with safety prompt
 - print out generation_config
 - KEEP A SEED ACROSS ALL MODELS
 - temperature can be adjusted as follows: 0.1, 0.7, 1.0, and 10 if time
-- update HallusionBench eval code to include percentages 
+- update HallusionBench eval code to include percentages; add eval to inference scripts
 ----------------------------------------
 
 To Do:
 
 - move data to slides, determine 2 worst and 2 best tasks
 - start runs with temperature changes
+
+# Day 22: 07/24
+
+Continuing with all datasets except MM-SafetyBench
+
+Updated scripts with notes from yesterday
+
+To use after current runs: created a larger bash script to submit all jobs at once
+
+Ran all three models on all datasets with the following params:
+- max_new_tokens = 1024
+- do_sample = True (changed)
+- top_k = 50
+- temperature = 1.0
+------------------------------------------------------
+
+To Do:
+- 
+- **move data to slides**
+- runs with temp = 0.1, 0.7, 10
+- runs with max_new_tokens = 256, 512
+- figure out values of top_k for runs
+- start abstract
+
 
 
 
