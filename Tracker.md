@@ -478,5 +478,10 @@ To Do:
 
 Finished running temp = 0.1, 0.7
 
+Could not run temp = 10 as it was considered invalid
+
+<img width="828" height="34" alt="image" src="https://github.com/user-attachments/assets/e5d5bf23-ee4e-4be0-8742-48ac777a4c3b" />
+
+
 
 
