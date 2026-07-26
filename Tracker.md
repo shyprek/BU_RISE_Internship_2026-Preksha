@@ -472,7 +472,11 @@ To Do:
 - figure out values of top_k for runs
 - start abstract
 
+-----------------------------------------------------
 
+# Run Day Update (07/25)
+
+Finished running temp = 0.1, 0.7
 
 
 
