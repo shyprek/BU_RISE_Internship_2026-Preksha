@@ -484,6 +484,12 @@ Could not run temp = 10 as it was considered invalid
 
 now running with max_new_tokens = 512
 
+# Run Day Update (07/26)
+
+Need to rerun temp = 10.0 (change it to float, not int)
+
+Have to rerun max_new_tokens=256 for TAID-VLM-2B for HallusionBench
+
 
 
 
