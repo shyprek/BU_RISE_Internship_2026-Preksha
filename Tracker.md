@@ -494,6 +494,17 @@ Update to hyperparams: only run max_new_tokens = 256 & max_new_tokens = 2048
 
 for top_k, test top_k = 25, 100
 
+-----------------------------------
 
+Remaining To Do:
+-
+
+rerun taid-vlm-2b on MME with max_new_tokens = 256
+
+run with max_new_tokens = 2048
+
+run with top_k = 100
+
+TRANSFER DATA + analysis
 
 
