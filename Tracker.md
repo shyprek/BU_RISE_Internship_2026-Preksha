@@ -507,4 +507,10 @@ run with top_k = 100
 
 TRANSFER DATA + analysis
 
+# Day 23: 07/27
+
+Need to rerun max_new_tokens = 256, 2048 because forgot to reset do_sample back to false (needs to be true for top_k, though!)
+
+Data transfer in process
+
 
