@@ -488,7 +488,7 @@ now running with max_new_tokens = 512
 
 Need to rerun temp = 10.0 (change it to float, not int)
 
-Have to rerun max_new_tokens=256 for TAID-VLM-2B for HallusionBench
+Have to rerun max_new_tokens=512 for TAID-VLM-2B for HallusionBench
 
 
 
