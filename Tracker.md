@@ -492,6 +492,8 @@ max_new_tokens=512 for TAID-VLM-8B for HallusionBench not successful
 
 Update to hyperparams: only run max_new_tokens = 256 & max_new_tokens = 2048
 
+for top_k, test top_k = 25, 100
+
 
 
 
