@@ -513,4 +513,6 @@ Need to rerun max_new_tokens = 256, 2048 because forgot to reset do_sample back 
 
 Data transfer in process
 
+HallusionBench scripts currently don't measure inference times by category rn for some reason
+
 
