@@ -515,4 +515,6 @@ Data transfer in process
 
 HallusionBench scripts currently don't measure inference times by category rn for some reason
 
+JailBreakV (InternVL2-2B) needs to be run again for top_k=100
+
 
