@@ -517,4 +517,16 @@ HallusionBench scripts currently don't measure inference times by category rn fo
 
 JailBreakV (InternVL2-2B) needs to be run again for top_k=100
 
+# Day 24: 07/28
 
+Fixed MM-SafetyBench scripts so that overall inference times were properly measured (initially was including a 25-second sleep between API calls + eval; sleep duration was also lowered to only 5 seconds); reran
+
+Issue: none of the current datasets can be classified cleanly into binary categories, so unsure what to do about linear probing
+
+# Day 25: 07/29 
+
+Finished all tables and analysis today; some columns for the accuracy delta tables were switched (so KD student actually improved on baseline, but was still less than teacher, not the other way around)
+
+For linear probing: VSCBench can be used --> need to write inference script & collect features before adding hook; will later train MLP
+
+Working on abstract using the current inference comparison results (basically the capability-loss profile, not necessarily how to improve it yet; results on the latter might just be included on the poster)
