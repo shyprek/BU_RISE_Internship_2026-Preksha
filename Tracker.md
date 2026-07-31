@@ -547,3 +547,10 @@ Knowledge distillation (KD) is the process of fine-tuning a lightweight student 
 
 added a seed for torch to new script for VSCBench
 
+# Day 27: 07/31
+
+started poster
+
+worked on inference code for VSCBench; added ASR in addition to official metrics
+- seems like one image is corrupted, so changed random seed from 42 to 60
+
