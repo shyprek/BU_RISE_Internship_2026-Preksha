@@ -554,3 +554,17 @@ started poster
 worked on inference code for VSCBench; added ASR in addition to official metrics
 - seems like one image is corrupted ("unsafe_drugs_10_1.png"), so changed random seed from 42 to 60
 
+# Day 28: 08/03
+
+fixing methodology section of poster, adding results
+
+changed seeds back to 42 for the inference; had to set PngImagePlugin.MAX_TEXT_CHUNK = 64 * 1024 * 1024   # 64 MB as setting this to None caused issues but removing it means that the files are too large for Pillow to process 
+
+finished extracting layers (over ALL image-centric images)
+
+running inference on vscb (defaults only)
+
+finished writing code for training
+
+need to run training script 3 times with different seeds (train-test split: 80/20)
+
