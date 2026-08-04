@@ -567,4 +567,7 @@ running inference on vscb (defaults only)
 finished writing code for training
 
 need to run training script 3 times with different seeds (train-test split: 80/20)
+- Run 1: seed = 42
+- Run 2: seed = 43
+- Run 3: seed = 44
 
