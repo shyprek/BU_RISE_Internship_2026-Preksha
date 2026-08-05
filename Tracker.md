@@ -575,3 +575,10 @@ For poster: use image index 163 from JailBreakV
 
 IVL2-2B:UNSAFE; IVL2-8B:SAFE; TAID:UNSAFE
 
+# Day 29: 08/04
+
+POSTER SUBMITTED!!!!!
+
+Important changes: normalized layers (used relative layers) for the training data so that the student data is comparable to that of the teacher; KD student attempts to follow teacher's trend, but is closer to the baseline student in terms of accuracy
+
+Link to final poster: https://canva.link/69hlumn8sxv9bf8
