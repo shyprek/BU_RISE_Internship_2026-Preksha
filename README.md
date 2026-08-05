@@ -12,6 +12,8 @@ When a smaller "student" model is distilled from a larger "teacher" model, what 
 
 Distillation loss isn't uniform. It likely impacts long-tail knowledge and certain tasks more instead of degrading everything proportionally. The project aims to produce a capability-loss profile, not just a single number.
 
+**Link to Poster**: https://canva.link/69hlumn8sxv9bf8
+
 Abstract
 -
 
