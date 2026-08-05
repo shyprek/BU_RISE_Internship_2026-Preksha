@@ -48,8 +48,6 @@ Finished reading LLaVA paper, finished reading about Gemma 2/Gemma 3
 
 **Gemma3-27B-IT Challenges & Settings**
 
- Current HF access token: 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
-
  Had to logout to reset `.vscode-server` to regain access via VSCode
 
  Changed max token arg in Gemma3-27B-IT/test.py from 40 to 248 to generate more complete response (on first run, the model terminated mid-sentence)
