@@ -27,3 +27,5 @@ Knowledge distillation (KD) is the process of fine-tuning a lightweight student 
 
 
 <img width="3456" height="4608" alt="Shyamsukha_Internship_Poster" src="https://github.com/user-attachments/assets/6fae4186-33c3-4377-8bd8-8f8490c514b5" />
+
+Note: graph for JailBreakV needs to be adjusted, MME graph caption should say InternVL2-8B instead of InternVL2-2B
